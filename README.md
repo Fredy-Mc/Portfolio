@@ -15,7 +15,7 @@ Bienvenue sur mon portfolio ! Je suis un développeur web spécialisé en intell
 ## Me contacter
 - **Site :** [https://fredy-mc.fr](https://fredy-mc.fr)
 - **Email :** [contact@fredy-mc.fr](mailto:contact@fredy-mc.fr)
-- **LinkedIn :** [Airwyn](https://www.linkedin.com/in/fredy-mc)
-- **GitHub :** [Airwyn](https://github.com/fredy-mc)
+- **LinkedIn :** [Fredy MC](https://www.linkedin.com/in/fredy-mc)
+- **GitHub :** [Fredy MC](https://github.com/fredy-mc)
 
 Merci de visiter mon portfolio !
