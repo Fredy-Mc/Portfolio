@@ -27,38 +27,87 @@ header p {
   margin: 5px 0 0;
   font-size: 1.2em;
 }
+header .header-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+header .btn {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+header .btn:hover {
+  background-color: #333;
+  color: #fff;
+}
 
 main {
-  padding: 20px;
   flex: 1;
 }
 main h2 {
   color: #333;
 }
-main ul {
+main #technologies {
+  padding: 20px;
+}
+main #technologies ul {
   list-style-type: none;
   padding: 0;
 }
-main ul li {
+main #technologies ul li {
   background-color: #fff;
   margin: 5px 0;
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
-main article {
+main #projects {
+  padding: 20px;
+}
+main #projects article {
   background-color: #fff;
   padding: 20px;
   margin: 20px 0;
   border: 1px solid #ddd;
   border-radius: 5px;
 }
-main a {
+main #projects a {
   color: #333;
   text-decoration: none;
 }
-main a:hover {
+main #projects a:hover {
   text-decoration: underline;
+}
+main #contact {
+  background-color: #333;
+  text-align: center;
+  padding: 40px 20px;
+}
+main #contact h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+main #contact .contact-button {
+  display: flex;
+  justify-content: center;
+}
+main #contact .contact-button .btn {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+main #contact .contact-button .btn:hover {
+  background-color: #333;
+  color: #fff;
 }
 
 footer {

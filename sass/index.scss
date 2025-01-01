@@ -34,45 +34,104 @@ header {
         margin: 5px 0 0;
         font-size: 1.2em;
     }
+
+    .header-buttons {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .btn {
+        background-color: $secondary-color;
+        color: $primary-color;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        border: 1px solid $primary-color;
+        transition: background-color 0.3s, color 0.3s;
+    
+        &:hover {
+            background-color: $primary-color;
+            color: $secondary-color;
+        }
+    }
 }
 
 main {
-    padding: 20px;
     flex: 1;
 
     h2 {
         color: $text-color;
     }
 
-    ul {
-        list-style-type: none;
-        padding: 0;
-        
-        li {
+    #technologies {
+        padding: 20px;
+        ul {
+            list-style-type: none;
+            padding: 0;
+            
+            li {
+                background-color: $secondary-color;
+                margin: 5px 0;
+                padding: 10px;
+                border: 1px solid $border-color;
+                border-radius: 5px;
+            }
+        }
+    }
+
+    #projects {
+        padding: 20px;
+        article {
             background-color: $secondary-color;
-            margin: 5px 0;
-            padding: 10px;
+            padding: 20px;
+            margin: 20px 0;
             border: 1px solid $border-color;
             border-radius: 5px;
         }
-    }
 
-    article {
-        background-color: $secondary-color;
-        padding: 20px;
-        margin: 20px 0;
-        border: 1px solid $border-color;
-        border-radius: 5px;
-    }
+        a {
+            color: $text-color;
+            text-decoration: none;
 
-    a {
-        color: $text-color;
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: underline;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
+
+    #contact {
+        background-color: $primary-color;
+        
+        text-align: center;
+        padding: 40px 20px;
+    
+        h2 {
+            color: $secondary-color;
+            margin-bottom: 20px;
+        }
+    
+        .contact-button {
+            display: flex;
+            justify-content: center;
+    
+            .btn {
+                background-color: $secondary-color;
+                color: $primary-color;
+                padding: 10px 20px;
+                border-radius: 5px;
+                text-decoration: none;
+                border: 1px solid $primary-color;
+                transition: background-color 0.3s, color 0.3s;
+    
+                &:hover {
+                    background-color: $primary-color;
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+    
 }
 
 footer {
