@@ -17,20 +17,20 @@
         </div>
     </header>
     <main>
-        <section id="technologies">
-            <h2>Technologies et outils</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-        </section>
         <section id="projects">
             <h2>Projets</h2>
-            <article>
-                <h3>A venir</h3>
-                <p>...</p>
-            </article>
+            <div class="project-container">
+                <article>
+                    <a href="#" class="project-card" onclick="openModal('project1')">
+                        <div class="project-image-container">
+                            <img src="public/project-thumbnail.png" alt="Aperçu du projet" class="project-image">
+                        </div>
+                        <div class="project-title">
+                            <span>Local LLM Chat  with Streamlit (En cours)</span>
+                        </div>
+                    </a>
+                </article>
+            </div>
         </section>
         <section id="contact">
             <h2>Discutons !</h2>
@@ -38,9 +38,29 @@
                 <a href="mailto:contact@airwyn.com" class="btn">Contact</a>
             </div>
         </section>
+
+        <!-- Modal -->
+        <div id="project1-modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal('project1')">&times;</span>
+                <h3>Local LLM Ollama+Streamlit</h3>
+                <p>
+                    Ce projet vise à créer une application de chat utilisant un grand modèle de langage local fournit par Ollama 
+                    et Streamlit pour l'interface utilisateur.
+                </p>
+                <p>
+                    Débuté le 7 janvier 2025, ce projet est prévu pour être finalisé d'ici le 14 janvier 2025. 
+                </p>
+                <p> 
+                    Restez informé de l'évolution de ce projet et découvrez les dernières mises à jour sur Githuib
+                </p>
+                <a href="https://github.com/fredy-mc" target="_blank" class="btn">Voir sur GitHub</a>
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2024 Fredy MC</p>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
